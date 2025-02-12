@@ -1,31 +1,3 @@
-// // controllers/userController.js
-// const User = require("../models/userModel");
-
-// const createUser = async (req, res) => {
-//   const { first_name, last_name, email, password, role, company_id } = req.body;
-//   const newUser = new User({ first_name, last_name, email, password, role, company_id });
-
-//   try {
-//     await newUser.save();
-//     res.status(201).json(newUser);
-//   } catch (err) {
-//     res.status(400).json({ error: err.message });
-//   }
-// };
-
-// const getUsers = async (req, res) => {
-//   try {
-//     const users = await User.find();
-//     res.status(200).json(users);
-//   } catch (err) {
-//     res.status(400).json({ error: err.message });
-//   }
-// };
-
-// module.exports = {
-//   createUser,
-//   getUsers,
-// };
 
 
 ////////////////////////////////////////////////
